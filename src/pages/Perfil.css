@@ -1,0 +1,48 @@
+.perfil-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.perfil-title {
+  font-size: 4rem;
+  margin-bottom: var(--space-xl);
+  letter-spacing: -0.02em;
+}
+
+.perfil-content {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  line-height: 1.9;
+}
+
+.perfil-content p {
+  margin-bottom: var(--space-lg);
+}
+
+.perfil-content strong {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.perfil-timeline {
+  margin-top: var(--space-xl);
+}
+
+.perfil-timeline-item {
+  padding: var(--space-md) 0;
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  gap: var(--space-lg);
+}
+
+.perfil-timeline-item .year {
+  color: var(--text-primary);
+  font-family: var(--font-sora);
+  width: 80px;
+}
+
+@media (max-width: 768px) {
+  .perfil-title {
+    font-size: 2.8rem;
+  }
+}

@@ -1,0 +1,34 @@
+.proyectos-page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.proyectos-title {
+  font-size: 4rem;
+  margin-bottom: var(--space-xl);
+  letter-spacing: -0.02em;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-lg);
+}
+
+.projects-grid .project-card {
+  padding: var(--space-2xl) var(--space-xl);
+  border-left: 2px solid transparent;
+}
+
+.projects-grid .project-card:hover {
+  border-left: 2px solid var(--text-accent-light);
+}
+
+@media (max-width: 768px) {
+  .proyectos-title {
+    font-size: 2.8rem;
+  }
+  .projects-grid .project-card {
+    padding: var(--space-xl) var(--space-lg);
+  }
+}

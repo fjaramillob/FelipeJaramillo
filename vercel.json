@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/directv",
+      "destination": "https://contrata.directv.getpartners.cl/ingresa-oportunidad?seller=FELIPEJ0506",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

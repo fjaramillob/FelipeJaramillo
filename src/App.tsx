@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import RootLayout from './layouts/RootLayout';
 import Contacto from './pages/Contacto';
-import Directv from './pages/Directv';
 
 // V1 Pages preserved but unused for current immediate deployment focus
 // import Home from './pages/Home';
@@ -23,9 +22,6 @@ function App() {
           <Route path="proyectos" element={<Proyectos />} />
           */}
         </Route>
-
-        {/* Redirect routes — rendered outside RootLayout (no navbar/footer) */}
-        <Route path="directv" element={<Directv />} />
       </Routes>
     </Router>
   );
